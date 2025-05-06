@@ -1,5 +1,4 @@
-#Movie Recommendation Web App
-## Submission for Microsoft Engage 2021 🌟
+# Movie Recommendation Web App
 
 [![Generic badge](https://img.shields.io/badge/view-demo-blue?style=for-the-badge&label=View%20Demo%20Video)](https://www.youtube.com/watch?v=3lCWBglRtV8)
 
