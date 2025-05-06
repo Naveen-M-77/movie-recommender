@@ -1,32 +1,85 @@
-name: React App CI
+name: Build and Deploy React App
+
+
 
 on:
+
   push:
-    branches: [main]
+
+    branches:
+
+      - main
+
+    paths:
+
+      - 'app/'
+
   pull_request:
-    branches: [main]
+
+    branches:
+
+      - main
+
+    paths:
+
+      - 'app/'
+
+
 
 jobs:
-  deploy:
+
+  build:
+
     runs-on: ubuntu-latest
 
+    defaults:
+
+      run:
+
+        working-directory: app
+
+
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+
+      - name: Checkout repository
+
+        uses: actions/checkout@v4
+
+
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'  # Make sure this matches your local version if needed
 
-      - name: Set environment variable for OpenSSL workaround
-        run: echo "NODE_OPTIONS=--openssl-legacy-provider" >> $GITHUB_ENV
+        uses: actions/setup-node@v4
+
+        with:
+
+          node-version: 18
+
+
 
       - name: Install dependencies
+
         run: npm install
 
-      - name: Build app
+
+
+      - name: Build the React app
+
         run: npm run build
 
+
+
+      # Optional: Deploy to GitHub Pages
+
       - name: Deploy to GitHub Pages
-        run: npm run deploy
+
+        if: github.ref == 'refs/heads/main'
+
+        uses: peaceiris/actions-gh-pages@v3
+
+        with:
+
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+          publish_dir: app/build
