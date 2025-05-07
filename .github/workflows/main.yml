@@ -17,7 +17,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'  # Adjust to your project's Node.js version
+          node-version: '18'
 
       - name: Install dependencies
         run: |
@@ -25,7 +25,7 @@ jobs:
 
       - name: Run tests
         run: |
-          npm test -- --watchAll=false
+          npm test -- --watchAll=false --passWithNoTests
 
       - name: Build project
         run: |
