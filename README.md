@@ -41,16 +41,14 @@
 
 ## Useful Links
 
-- [Deployed Website](https://netflix-clone-ac744.web.app/)
-- [Demo Video](https://www.youtube.com/watch?v=3lCWBglRtV8)
+- [Deployed Website]()
 - [Sprint Document]()
 - [Design Document]()
 
 ## Need help?
 
-Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/sandesh-powar-374889205/) 
-
-[![Instagram](https://img.shields.io/badge/Instagram-follow-purple.svg?logo=instagram&logoColor=white)]() [![Twitter](https://img.shields.io/badge/Twitter-follow-blue.svg?logo=twitter&logoColor=white)]() 
+Feel free to contact me on [LinkedIn]() 
+ 
 
 
 ---------
