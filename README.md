@@ -1,24 +1,8 @@
-# Movie Recommendation Web App
+### Movie Recommendation Web App
 
-[![Generic badge](https://img.shields.io/badge/view-demo-blue?style=for-the-badge&label=View%20Demo%20Video)](https://www.youtube.com/watch?v=3lCWBglRtV8)
-
-[![Generic badge](https://img.shields.io/badge/View%20Live-Demo-orange?style=for-the-badge&label=View%20Live%20WebApp)](https://netflix-clone-ac744.web.app/)
-
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Sam0204/netflix_clone02-main?logo=github&style=for-the-badge)](https://github.com/Sam0204/) 
-[![GitHub last commit](https://img.shields.io/github/last-commit/Sam0204/netflix_clone02-main?style=for-the-badge&logo=git)](https://github.com/Sam0204) 
-[![GitHub stars](https://img.shields.io/github/stars/Sam0204/netflix_clone02-main?style=for-the-badge)](https://github.com/Sam0204/netflix_clone02-main) 
-[![My stars](https://img.shields.io/github/stars/Sam0204?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&label=My%20stars)](https://github.com/Apurva-tech/unite/stargazers)
-
-
-
-# react-movie
-
-    Responsive React Movies App With API
 
     
 # Preview
-
-[![Generic badge](https://img.shields.io/badge/view-demo-blue?style=for-the-badge&label=View%20Demo%20Video)](https://www.youtube.com/watch?v=3lCWBglRtV8) 
 
 ![Capture](https://user-images.githubusercontent.com/97906758/170831594-dcaa84aa-3c51-4548-afeb-5a96b0474a64.PNG)
 ![Capture1](https://user-images.githubusercontent.com/97906758/170831596-00b4a71e-a2d7-413d-bee8-a0a36c1a1b9f.PNG)
@@ -36,6 +20,20 @@
 ![Capture13](https://user-images.githubusercontent.com/97906758/170831643-104eb8c7-848e-4c3c-8865-86da12d895a9.PNG)
 
 
+
+## Instructions
+
+1. `git clone https://github.com/Naveen-M-77/movie-recommende.git` 
+2. `cd ./app` (for going to the root folder)
+3. Install node dependencies 
+   - `yarn install` OR `npm install` (If not present yarn module).
+4. If `api key` is not present then go with 5th step.(If api key is present then drop the 5th step & go with 6th step) 
+5. Replace TMDB API keys with your configurations (`Sign in` on `TMDB` and generate api key).
+6. Then simply use `yarn start` OR `npm start` for seeing output on browser.
+7. The app is now running at http://localhost:3000/landing 
+
+
+
 ## Points to remember while testing the app
 
 1. You can download `zip file` of repository OR Clone this repo.
@@ -47,17 +45,6 @@
 7. While testing the `recommendations movies` scroll down of that movies you can see `similar` movies of that type. 
 8. The website is host on `Firebase`.
 
-## Instructions
-
-
-1. `git clone https://github.com/Sam0204/netflix_clone02-main.git` 
-2. `cd ./app` (for going to the root folder)
-3. Install node dependencies 
-   - `yarn install` OR `npm install` (If not present yarn module).
-4. If `api key` is not present then go with 5th step.(If api key is present then drop the 5th step & go with 6th step) 
-5. Replace TMDB API keys with your configurations (`Sign in` on `TMDB` and generate api key).
-6. Then simply use `yarn start` OR `npm start` for seeing output on browser.
-7. The app is now running at http://localhost:3000/landing 
 
 
 ## Useful Links
@@ -65,8 +52,6 @@
 - [Deployed Website]()
 - [Sprint Document]()
 - [Design Document]()
-
- 
 
 
     
@@ -108,6 +93,7 @@
 </h3>
 
 
+
 # Resource
 
     Google font: https://fonts.google.com/
@@ -119,12 +105,14 @@
     API: https://www.themoviedb.org/
 
 
+
 ## Need help?
 
-Feel free to contact us on 
-[![M Naveen](https://img.shields.io/badge/M%20Naveen-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/m-naveen-42244830a)
-[![Ayush R](https://img.shields.io/badge/Ayush%20R-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/ayush-r-4b87332b7)
+Feel free to contact us on Linkedin
+[![M Naveen](https://img.shields.io/badge/M%20Naveen-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/m-naveen-42244830a)   
+[![Ayush R](https://img.shields.io/badge/Ayush%20R-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/ayush-r-4b87332b7)   
 [![Kushal U](https://img.shields.io/badge/Kushal%20U-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kushal-gowda-27ba292a2)
+
 
 
 -------
