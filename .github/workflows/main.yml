@@ -29,4 +29,4 @@ jobs:
 
       - name: Build project
         run: |
-          NODE_OPTIONS=--openssl-legacy-provider npm run build
+          CI=false NODE_OPTIONS=--openssl-legacy-provider npm run build
