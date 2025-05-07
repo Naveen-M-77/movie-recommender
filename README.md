@@ -122,9 +122,9 @@
 ## Need help?
 
 Feel free to contact us on 
-M Naveen [LinkedIn](https://www.linkedin.com/in/m-naveen-42244830a)
-Ayush R  [LinkedIn](http://www.linkedin.com/in/ayush-r-4b87332b7) 
-Kushal U [LinkedIn](https://www.linkedin.com/in/kushal-gowda-27ba292a2)
+[![M Naveen](https://img.shields.io/badge/M%20Naveen-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/m-naveen-42244830a)
+[![Ayush R](https://img.shields.io/badge/Ayush%20R-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/ayush-r-4b87332b7)
+[![Kushal U](https://img.shields.io/badge/Kushal%20U-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kushal-gowda-27ba292a2)
 
 
 -------
