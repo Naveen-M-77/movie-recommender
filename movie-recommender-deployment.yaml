@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: movie-recommender-deployment
+  labels:
+    app: movie-recommender
+spec:
+  replicas: 3  # Number of replicas you want for scaling
+  selector:
+    matchLabels:
+      app: movie-recommender
+  template:
+    metadata:
+      labels:
+        app: movie-recommender
+    spec:
+      containers:
+      - name: movie-recommender
+        image: naveenm77/movie-recommender:latest  # Your Docker Hub image
+        ports:
+        - containerPort: 80
